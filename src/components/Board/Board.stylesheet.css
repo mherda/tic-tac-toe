@@ -1,0 +1,26 @@
+.game {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  padding: 1rem;
+}
+
+.board-row {
+  display: flex;
+}
+.square {
+  font-size: 3rem;
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+}
+
+.square:hover {
+  background-color: dimgrey;
+}
